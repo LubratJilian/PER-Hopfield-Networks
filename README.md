@@ -2,9 +2,19 @@
 
 ## Présentation
 
-Ce projet est une implémentation (sous forme de notebook) de plusieurs variantes de **réseaux de Hopfield** pour des tâches de mémorisation et de reconstruction de motifs, dans le cadre du PER (Projet d'étude et de recherche) **2025-023** de l'école Polytech Nice Sophia, intitulé :
+https://github.com/user-attachments/assets/b7a426d1-d7a0-4532-8e9c-e293d144d4d6
 
-**Rêver pour mieux mémoriser : optimisation mémoire dans les réseaux de Hopfield**
+## Structure du projet
+
+Le dépôt contient :
+
+* le **notebook principal** contenant l'ensemble du code utilisé pour ce projet ;
+* le **poster** de présentation du projet de recherche ;
+* le **rapport** du projet de recherche ;
+* un **état de l’art** autour des réseaux de Hopfield ;
+* un **package Python** correspondant à l’extraction du code principal du notebook.
+
+## Fonctionnalités du notebook
 
 Le notebook permet d’explorer :
 
@@ -12,31 +22,19 @@ Le notebook permet d’explorer :
 * les méthodes de “rêve” associées ;
 * les réseaux de Hopfield modernes.
 
-## Fonctionnalités
+Il contient notamment :
 
-Le projet permet notamment de :
-
-* préparer et transformer des jeux de données d’images (notamment MNIST) pour les rendre compatibles avec l’implémentation des réseaux de Hopfield ;
-* entraîner et tester un réseau de Hopfield classique (mises à jour **synchrones** et **asynchrones**) ;
-* générer des entrées bruitées et observer les capacités de reconstruction du réseau ;
-* analyser certains comportements du réseau (**cycles**, **convergence**, **stabilité**) ;
-* visualiser des trajectoires énergétiques et différents résultats expérimentaux (graphes, GIF, etc.) ;
-* comparer plusieurs configurations de réseaux sur différents jeux de données :
+* préparation et transformer des jeux de données d’images (notamment MNIST) pour les rendre compatibles avec l’implémentation des réseaux de Hopfield ;
+* entrainement et tester un réseau de Hopfield classique (mises à jour **synchrones** et **asynchrones**) ;
+* génération des entrées bruitées et observer les capacités de reconstruction du réseau ;
+* analyse certains comportements du réseau (**cycles**, **convergence**, **stabilité**) ;
+* visualisation des trajectoires énergétiques et différents résultats expérimentaux (graphes, GIF, etc.) ;
+* comparaison plusieurs configurations de réseaux sur différents jeux de données :
   * **MNIST**
   * **ImageNet 16x16**
   * **dataset décorrélé**
-* implémenter et évaluer une version moderne du réseau de Hopfield avec différentes fonctions d’énergie ;
-* explorer une variante avec mécanisme de **“rêve”** pour l’étude de l’optimisation de la mémoire.
-
-## Structure du projet
-
-Le dépôt contient :
-
-* le **notebook principal** (code de l’implémentation et expériences) ;
-* le **poster** de présentation du projet de recherche ;
-* le **rapport** du projet de recherche ;
-* un **état de l’art** autour des réseaux de Hopfield ;
-* un **package Python** correspondant à l’extraction du code principal du notebook.
+* implémentation et évaluation d'une version classique et moderne du réseau de Hopfield avec différentes fonctions d’énergie ;
+* exploration d'une variante des réseaux classiques avec mécanisme de **“rêve”** pour l’étude de l’optimisation de la mémoire.
 
 ## Installation
 
