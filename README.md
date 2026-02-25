@@ -2,7 +2,7 @@
 
 ## Présentation
 
-Ce projet est une implémentation (sous forme de notebook) de plusieurs variantes de **réseaux de Hopfield** pour des tâches de mémorisation et de reconstruction de motifs, dans le cadre du PER **2025-023** de l'école Polytech Nice Sophia, intitulé:
+Ce projet est une implémentation (sous forme de notebook) de plusieurs variantes de **réseaux de Hopfield** pour des tâches de mémorisation et de reconstruction de motifs, dans le cadre du PER (Projet d'étude de rechercher) **2025-023** de l'école Polytech Nice Sophia, intitulé:
 
 **Rêver pour mieux mémoriser : optimisation mémoire dans les réseaux de Hopfield**
 
@@ -36,7 +36,8 @@ Le projet permet notamment de :
 Le dépôt contient :
 
 * le **notebook principal** (code de l’implémentation et expériences)
-* le **rapport** du projet
+* le **poster** de présentation du projet de recherche
+* le **rapport** du projet de recherche
 * un **état de l’art** autour des réseaux de Hopfield
 
 ## Installation
